@@ -1,6 +1,10 @@
 import { LitElement, html, css } from "lit"
 
+const componentStyles = css``
+
 export class Projects extends LitElement {
+  static styles = componentStyles
+
   render() {
     return html`
       <section>

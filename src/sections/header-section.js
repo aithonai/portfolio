@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit"
 
-const headerStyles = css`
+const componentStyles = css`
   header {
     text-align: left;
   }
@@ -28,16 +28,7 @@ const headerStyles = css`
 `
 
 export class Header extends LitElement {
-  static styles = headerStyles
-  
-  static properties = {
-    _count: { type: Number }
-  }
-  
-  constructor() {
-    super()
-    this._count = 0
-  }
+  static styles = componentStyles
 
   render() {
     return html`

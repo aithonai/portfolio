@@ -2,14 +2,12 @@ import { LitElement, html, css } from "lit"
 
 const headerStyles = css`
   header {
-    text-align: center;
-    border-bottom: 1px solid #ccc;
     text-align: left;
   }
 
   h1 {
     color: #333;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin: 0;
     margin-bottom: 1rem;
   }
@@ -45,7 +43,7 @@ export class Header extends LitElement {
     return html`
       <header>
         <h1>Aithonai</h1>
-        <p class="quote">"Valoro mucho las máquinas, su complejidad y ayuda <br> aumentó mi pensamiento, ahora soy mejor que antes"</ p>
+        <p class="quote">"Valoro mucho las máquinas, su complejidad y ayuda <br> aumentó mi pensamiento, ahora soy mejor que antes"</p>
         <p class="description">AI Student | JavaScript | Python | Web Programmer </p>
       </header>
     `

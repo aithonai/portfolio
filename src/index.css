@@ -9,14 +9,14 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  margin: 3rem;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
 }
 
-portfolio-main {
-  margin: 0 auto;
-  max-width: 1200px;
-  min-width: 520px;  
-  padding: 0 20px; 
-  box-sizing: border-box;
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  color: #333;
+  width: 100%;
 }

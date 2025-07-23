@@ -1,9 +1,8 @@
 import { LitElement, html } from "lit"
-
 import "./sections/header-section"
 import "./sections/projects-section"
 
-export class Portfolio extends LitElement {
+export class MainContent extends LitElement {
   render() {
     return html`
       <header-section></header-section>
@@ -11,4 +10,4 @@ export class Portfolio extends LitElement {
     `
   }
 }
-customElements.define("portfolio-main", Portfolio)
+customElements.define("main-content", MainContent)
